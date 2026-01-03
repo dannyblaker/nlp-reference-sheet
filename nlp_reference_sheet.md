@@ -527,7 +527,7 @@ transformers-cli convert --model_type bert --pytorch_model_path model.bin \
   --config config.json --tf_dump_path tf_model
 ```
 
-### **Useful Resources**
+### **Extra Resources**
 - **Papers**: [arXiv.org](https://arxiv.org), [Papers with Code](https://paperswithcode.com)
 - **Datasets**: HuggingFace Datasets, Kaggle, UCI ML Repository, Common Crawl
 - **Models**: [HuggingFace Hub](https://huggingface.co/models), [TensorFlow Hub](https://tfhub.dev)
