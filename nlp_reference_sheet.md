@@ -1,9 +1,9 @@
-# Natural Language Processing (NLP) reference Sheet
-**Author**: Danny Blaker | [View Github](https://github.com/dannyblaker)
+# Natural Language Processing (NLP) Reference Sheet
+**Author**: Danny Blaker | **Project URL**: [https://github.com/dannyblaker/nlp-reference-sheet](https://github.com/dannyblaker/nlp-reference-sheet)
 
 ---
 
-## PAGE 1: Core Concepts & Text Processing
+## 1: Core Concepts & Text Processing
 
 ### **NLP Task Categories**
 | Task | Description | Examples |
@@ -123,7 +123,7 @@ mentions = re.findall(r'@\w+', text)
 
 ---
 
-## PAGE 2: Advanced Techniques & Models
+## 2: Advanced Techniques & Models
 
 ### **Word Embeddings Comparison**
 | Model | Type | Dim | Training | Context | OOV |
@@ -293,7 +293,7 @@ H = nmf.components_
 
 ---
 
-## PAGE 3: Evaluation, Advanced Tasks & Best Practices
+## 3: Evaluation, Advanced Tasks & Best Practices
 
 ### **Evaluation Metrics**
 | Metric | Formula | Use Case | Code |
@@ -527,10 +527,3 @@ python predict.py --input "Your text here" --model model.pkl
 transformers-cli convert --model_type bert --pytorch_model_path model.bin \
   --config config.json --tf_dump_path tf_model
 ```
-
-### **Extra Resources**
-- **Papers**: [arXiv.org](https://arxiv.org), [Papers with Code](https://paperswithcode.com)
-- **Datasets**: HuggingFace Datasets, Kaggle, UCI ML Repository, Common Crawl
-- **Models**: [HuggingFace Hub](https://huggingface.co/models), [TensorFlow Hub](https://tfhub.dev)
-- **Tutorials**: [HuggingFace Course](https://huggingface.co/course), [FastAI NLP](https://docs.fast.ai)
-- **Books**: "Speech and Language Processing" (Jurafsky), "Natural Language Processing with Transformers"

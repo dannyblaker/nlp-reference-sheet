@@ -25,6 +25,12 @@ styled_html = f"""
         @page {{
             size: A4;
             margin: 0.5cm;
+            margin-bottom: 1cm;
+            @bottom-right {{
+                content: "Page " counter(page) " of " counter(pages);
+                font-size: 8pt;
+                color: #666;
+            }}
         }}
         body {{
             font-family: 'Arial', 'Helvetica', sans-serif;
@@ -144,4 +150,5 @@ HTML(string=styled_html).write_pdf(
 )
 
 print("✓ PDF created successfully: nlp_reference_sheet.pdf")
-print(f"✓ File size: {Path('nlp_reference_sheet.pdf').stat().st_size / 1024:.1f} KB")
+print(
+    f"✓ File size: {Path('nlp_reference_sheet.pdf').stat().st_size / 1024:.1f} KB")
