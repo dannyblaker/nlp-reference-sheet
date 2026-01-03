@@ -1,5 +1,6 @@
 # Natural Language Processing (NLP) reference Sheet
-## Author: Danny Blaker
+**Author**: Danny Blaker | [View Github](https://github.com/dannyblaker)
+
 ---
 
 ## PAGE 1: Core Concepts & Text Processing
